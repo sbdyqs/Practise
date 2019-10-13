@@ -16,7 +16,7 @@ public class 分解质因数 {
             System.out.println(x + "分解质因数:" + x + "*" + 1);
         }
         else {
-            System.out.print(x + "分解质因数: 1");
+            System.out.print(x + "分解质因数= 1");
             while (n <= x) {
                 if (x % n == 0) {
                     System.out.print("*" + n);
